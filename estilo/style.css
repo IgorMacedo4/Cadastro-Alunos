@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(81, 186, 186);
+}
+#menu{
+    height: 10em;
+   position: relative;
+}
+.inicio{
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+
+   /*cor*/
+   background-color: rgba(0, 235, 199, 0.461);
+   /*tirando valores pdrões da borda*/
+   border: none;
+   /*cor da letras*/
+   color: white;
+   /*Espaço interno do elemento*/
+   padding:15px 30px;
+   /*espaçamento entre botoes*/
+   margin-right: 15px;
+   /*tamanho da fonte*/
+   font-size: 30px;
+   /*Muda o formato do mouse*/
+   cursor: pointer;
+   /*transição entre animação*/
+   transition: .3s ease all;
+
+}
+/*quando o mouse passar pelo botão, esse efeito acontece*/
+.inicio:hover{
+   /*quando passo mouse*/
+   background-color:  rgba(215, 253, 247, 0.461);;
+   /*quando retira o mouse*/
+   color: black;
+}
